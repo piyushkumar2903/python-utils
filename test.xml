@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Doc>
+    <DocID>D-124720</DocID>
+    <Header>For Testing</Header>
+    <Items>
+        <Data>
+            <ProductNo>12345678</ProductNo>
+            <MD5>ca7edff634d38a096999969</MD5>
+            <SHA256>8efdddd4803ac2f59479ddcbe1bbed9934e8bbc6a196f0a10498ce9afffe96495f88</SHA256>
+            <Filename>12345678.zip</Filename>          
+        </Data>
+    </Items>
+</Doc>
