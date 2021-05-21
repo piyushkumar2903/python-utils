@@ -8,7 +8,7 @@ LOGGER = logging.getLogger()
 
 _MISSING_FILE_PATH_MSG = "Missing parameter file_path: %s"
 
-def calculate_sha256_checksum(file_path):
+def generate_sha256_checksum(file_path):
     '''
     Purpose:    Calculate the SHA256 checksum of a given file
     Parameters: Path to file
@@ -31,7 +31,7 @@ def calculate_sha256_checksum(file_path):
     return sha_hash.hexdigest()
  
 
-def calculate_md5_checksum(file_path):
+def generate_md5_checksum(file_path):
     '''
     Purpose:    Will calculate a file's checksum (md5)
     Returns:    either False or the MD5 checksum of the file
